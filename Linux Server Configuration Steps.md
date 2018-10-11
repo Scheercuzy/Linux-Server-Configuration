@@ -2,6 +2,13 @@
 
 ## Installation process
 
+### Be up to date with your packages
+
+```bash
+sudo apt-get update
+sudo apt-get upgrade
+```
+
 ### Add User 
 
 ```bash
@@ -33,6 +40,7 @@ Change these values in the config
 ```
 PermitRootLogin no
 PasswordAuthentication no
+UsePAM no
 ```
 
 Restart ssh service
